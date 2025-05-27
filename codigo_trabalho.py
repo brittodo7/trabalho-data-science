@@ -17,7 +17,7 @@ def coletar_dados():
             print("Entrada inválida! Certifique-se de seguir o formato: Nome, Idade, Alimentos Favoritos, Consumo Semanal")
 
     # Criar DataFrame
-    colunas = ["Nome", "Idade", "Alimentos Favoritos", "Consumo Semanal"]
+    colunas = ["Nome", "Idade", "Alimentos_Favoritos", "Consumo_Semanal"]
     dados = pd.DataFrame(dados_lista, columns=colunas)
 
     return dados
